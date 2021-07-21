@@ -1,7 +1,4 @@
-// Greets the world
-console.log('Hello world!');
-
-/*
-  When there is an error in hello.ts File,
-  using --noEmitOnError does not Update hello.js
- */
+function greet(person, date) {
+    console.log("Hello " + person + ", today is " + date.toDateString() + "!");
+}
+greet("Brendan", new Date());
