@@ -3,3 +3,5 @@ function greet(person: string, date: Date) {
 }
 
 greet("Brendan", new Date());
+
+var msg = "hello there!"; //  Type String, even when not given
